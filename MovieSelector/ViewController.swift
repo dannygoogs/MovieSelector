@@ -43,7 +43,7 @@ class ViewController: UIViewController , UIPickerViewDelegate, UIPickerViewDataS
         
     }
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 1
+    return 1
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
@@ -56,3 +56,4 @@ class ViewController: UIViewController , UIPickerViewDelegate, UIPickerViewDataS
 
 }
 
+// walters 
