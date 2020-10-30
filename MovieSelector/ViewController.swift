@@ -26,14 +26,6 @@ class ViewController: UIViewController , UIPickerViewDelegate, UIPickerViewDataS
         mypickerview.dataSource = self
         
     }
-
-    @IBAction func buttontapped(_ sender: Any)
-    {
-        
-        
-        
-        
-    }
    
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         let currentmovie = mymovies[row]
